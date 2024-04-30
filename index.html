@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        <aside>
+            <form id="search-form">
+                <label>Search for a city:</label>
+                <input type="text" id="city-input">
+                <input type="submit" id="submit-button">
+            </form>
+            <div id="history-container"> History</div>
+        </aside>
+        <section> 
+            <div id="main-card">Main</div>
+            <div id="forecast-cards">
+                Forecast Cards
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>

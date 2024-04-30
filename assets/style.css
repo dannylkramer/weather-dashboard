@@ -1,0 +1,87 @@
+header {
+    background-color: #ADD8E6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    min-height: 400px;
+    margin: 20px; /* Add margin around the main content */
+  }
+  
+
+  main > aside {
+    background-color: #191970;
+    width: 20%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    margin: 10px; /* Add margin for spacing */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+  
+  main > section {
+    background-color: #191970;
+    width: 80%;
+    padding: 20px;
+    margin: 10px; /* Add margin for spacing */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+  
+
+#forecast-cards {
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.forecast-card {
+    border: 5px solid #191970; /* Replace #your_color with your desired color */
+    padding: 10px; /* Add padding to maintain space within the card */
+  }
+  
+
+#history-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 5px; /* Add spacing between buttons (optional) */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+  }
+  
+  #history-container button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; /* Reduced padding for smaller buttons */
+    font-size: 0.9em; /* Slightly smaller font size */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+#history-container button:hover {
+    background-image: linear-gradient(to bottom, #f0f0f0, #e0e0e0); /* Hover effect */
+  }
+  
+  #search-form { /* Style the search form container (optional) */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #city-input { /* Style the search input field */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+#submit-button {
+    width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+  
+  
